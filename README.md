@@ -1,6 +1,6 @@
 # QEMを用いた頂点クラスタリングによるメッシュ簡略化
 
-<img src = "snapshot01.png" width = 50%><img src = "snapshot00.png" width = 50%>
+<img src = "snapshot00.png" width = 50%><img src = "snapshot01.png" width = 50%>
 
 
 ### 概略
@@ -49,9 +49,9 @@ struct QuadricErrorMetric
 
 ### 実行結果
 
-- 入力 : `lucy.obj`  
-- 出力 : `lucy15027_simplified.obj`
-- 簡略化にかかった時間 : `1.5549`秒
+- 入力 : `lucy.obj`  （頂点数14,027,872）
+- 出力 : `lucy15027_simplified.obj` （頂点数15,027）
+- 簡略化にかかった時間 : 1.5549秒
  ```
 Enter percentage of cell length : 0.0096        // 入力
 cell number :  62  36 106, 236592
